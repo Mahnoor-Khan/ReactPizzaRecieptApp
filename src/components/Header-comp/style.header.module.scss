@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Estonia&family=Montserrat&family=Neonderthaw&display=swap');
+
+.header{
+    height:450px;
+}
+.headerImg{
+    height:450px;
+    width:100%
+}
+.headerHeading{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.pizzaImg{
+    height:250px
+}
+.pizzaCard{
+    text-align: center;
+    background-color:white ;
+    border-radius: 4px 4px;
+    box-shadow: 0 8px 32px 0px black;
+    transition: all 0.3s ease;
+    padding-bottom:15px;
+
+}
+.PizzaCardsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.orderBtn{
+    background-color:Red;
+    font-size: 20px;
+    padding:15px;
+    outline: none;
+    border: none;
+    color:white;
+    padding-left:30px;
+    padding-right:30px;
+    cursor: pointer;
+    &:hover{
+        background-color:black;
+        transition: ease 0.3s all;
+    }
+}
+
+.priceTag{
+    font-size: 25px;
+}
+.hrTag{
+    width:200px;
+}
+.radioBtnsDiv{
+//  margin:20px;
+//  padding:10px;
+display: flex;
+flex-direction: row;   
+font-size: 18px;
+}
+.radioBtn {
+    padding:5px;
+}
+.checkboxBtn{
+    font-size:20px;
+}
+.orderNowbtnDiv{
+    text-align: center;
+}
+.priceSpan{
+    font-size:12px;
+}
+.codeSection{
+    display:none;
+}
+

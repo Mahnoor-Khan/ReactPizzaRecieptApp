@@ -1,0 +1,45 @@
+@import 'antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Montserrat&family=Neonderthaw&display=swap');
+
+.contactDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:black;
+    opacity: 0.5;
+    height:200px;
+    color:white;
+    align-content: center;
+
+}
+.contactLogo{
+    font-family: 'Neonderthaw', cursive;
+    font-size:50px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin:50px 10px;
+
+    
+}
+.ContactDataHeadings{
+color:white;
+font-size:35px;
+
+}
+.ContactData{
+    font-size:18px;
+}
+.ContactIcons{
+    font-size: 30px;
+    border-radius: 50px;
+}
+.contactIcon{
+    font-size:28px
+}
+.contactFooter{
+    background-color:orange ;
+    text-align: center;
+    font-weight: bolder;
+    // color:white
+}

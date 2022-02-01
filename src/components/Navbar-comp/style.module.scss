@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Montserrat&family=Neonderthaw&display=swap');
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color:white
+}
+.navbarLogo{
+    font-family: 'Neonderthaw', cursive;
+    color: orange;
+    font-size: 35px;
+     float:inline-start;
+     margin: auto;
+    }
+.navbarContentDiv{
+    float:right;
+    padding:15px;
+    font-size: 20px;
+    margin-left: auto;
+    
+}
+.navbarTag{
+    padding:30px;
+    color:white;
+}
+.navbarBtns{
+    padding:10px;
+    margin-right:10px;
+    padding-left:20px;
+    padding-right:20px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    border-radius: 4px;
+    font-size:15px;
+}
+
+
