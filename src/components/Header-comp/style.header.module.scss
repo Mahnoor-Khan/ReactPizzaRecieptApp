@@ -74,7 +74,16 @@ font-size: 18px;
 .priceSpan{
     font-size:12px;
 }
-.codeSection{
+.codeSection , .ReceiptSection ,.OrderSection {
     display:none;
+}
+.OrderPlaceSection{
+    display:none
+}
+.ExtraPrice{
+    font-size:12px;
+}
+.quantitySpan{
+    width:35px;
 }
 
